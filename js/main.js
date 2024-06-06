@@ -188,4 +188,15 @@
 
 }
 
+//トップのフェードイン
+
+$(function() {
+	setTimeout(function(){
+		$('.logo_fade_in figure').fadeIn(1000);
+	},500);
+	setTimeout(function(){
+		$('.logo_fade_in').fadeOut(1000);
+	},2500);
+});
+
 
