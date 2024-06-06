@@ -12,6 +12,37 @@ body {
 
 /* ここからCSSを追加していく */
 
+.logo_fade_in{
+	background: #334653;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+
+.logo_fade_in figure{
+	position: fixed;
+	top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+	display: none;
+	z-index: 999;
+}
+
+.logo_fade_in img{
+	width: 130px;
+}
+
+.logo img{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 100px;
+}
+
 main{
   width: 100vw;
   min-height: 650px;
@@ -782,6 +813,15 @@ h2{
 @media screen and (min-width: 428px) {
   /* TOPイラスト＆HOME用レイアウト 428px以上の範囲に収めるデザインはこの中に記述　*/
   /********************** TOP ****************************/
+  .logo_fade_in img{
+    width: 150px;
+  }
+
+  .logo img{
+    left: 20px;
+    width: 120px;
+  }
+
   .TOP .top_07{
     top: 72%;
     left: 50%;
@@ -828,6 +868,15 @@ h2{
   /* タブレット用縦レイアウト 768px以上の範囲に収めるデザインはこの中に記述　*/
 
   /********************** TB_TOP ****************************/
+  .logo_fade_in img{
+    width: 150px;
+  }
+
+  .logo img{
+    top: 20px;
+    width: 140px;
+  }
+
   .copy{
     margin: 0;
     width: 300px;
@@ -1147,6 +1196,11 @@ h2{
 @media screen and (min-width: 901px) {
   /* タブレット横用レイアウト 901px以上の範囲に収めるデザインはこの中に記述　*/
   /********************** TB_横_TOP ****************************/
+  .logo img{
+    top: 20px;
+    left: 30px;
+    width: 110px;
+  }
 
   .copy{
     text-align: center;
@@ -1451,6 +1505,15 @@ h2{
 @media screen and (min-width: 1200px) {
   /* PC用レイアウト 1200px以上の範囲に収めるデザインはこの中に記述　*/
   /********************** PC_TOP ****************************/
+  .logo_fade_in img{
+    width: 180px;
+  }
+
+  .logo img{
+    top: 30px;
+    left: 50px;
+    width: 140px;
+  }
 
   .TOP figure .top_01{
     width: 60%;
