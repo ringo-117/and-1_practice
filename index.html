@@ -18,10 +18,15 @@
   <body>
 
     <header>
-      <!--サイト名、ロゴなど -->
+      <a href="index.html">
+        <figure class="logo"><img src="img/logo_top.webp" alt="AND-1"></figure>
+      </a>
     </header>
 
     <main>
+      <div class="logo_fade_in">
+        <figure><img src="img/logo.webp" alt="AND-1"></figure>
+      </div>
       <div class="bg_01"></div>
       <div class="bg_02"></div>
 
@@ -36,22 +41,22 @@
           <img class="top_03" src="img/board.webp" alt="ボード">
         </figure>
         <figure id="computer" class="top_item">
-          <a href="#SERVICE_01"><img class="top_04" src="img/computer.webp" alt="ホームページ制作"></a>
+          <a href="#SERVICE_01"><img class="top_04" src="img/computer.png" alt="ホームページ制作"></a>
         </figure>
         <figure id="futaba" class="top_item">
-          <a href="#SERVICE_04"><img class="top_05" src="img/futaba.webp" alt="福祉"></a>
+          <a href="#SERVICE_04"><img class="top_05" src="img/futaba.png" alt="福祉"></a>
         </figure>
         <figure id="iphone" class="top_item">
-          <a href="#TOPICS"><img class="top_06" src="img/iphone.webp" alt="TOPICS"></a>
+          <a href="#TOPICS"><img class="top_06" src="img/iphone.png" alt="TOPICS"></a>
         </figure>
         <figure id="lens" class="top_item">
-          <a href="#VISION"><img class="top_07" src="img/lens.webp" alt="VISION"></a>
+          <a href="#VISION"><img class="top_07" src="img/lens.png" alt="VISION"></a>
         </figure>
         <figure class="top_item">
           <a href="https://maps.app.goo.gl/DppZCuVwAAZAqP1i7" target="_blank" rel="noopener noreferrer"><img class="top_08" src="img/map.webp" alt="map"></a>
         </figure>
         <figure id="note" class="top_item">
-          <a href="#SERVICE_02"><img class="top_09" src="img/note.webp" alt="デザイン"></a>
+          <a href="#SERVICE_02"><img class="top_09" src="img/note.png" alt="デザイン"></a>
         </figure>
         <figure id="teams" class="top_item">
           <a href="#TEAM"><img class="top_10" src="img/team.webp" alt="TEAM"></a>
@@ -483,6 +488,9 @@
     </main>
 
     <footer class="copy">&copy 2024 AND-1.ALL RIGHTS RESERVED.</footer>
+
+    <!-- 最初のフェードインjs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="js/main.js"></script>
   </body>
