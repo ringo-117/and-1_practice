@@ -109,7 +109,7 @@ main{
 }
 
 .TOP .top_02:hover{
-  opacity: 80%;
+  /* opacity: 80%; */
   transition: 0.5s;
 }
 
@@ -129,22 +129,12 @@ main{
   z-index: 30;
 }
 
-.TOP .top_04:hover{
-  opacity: 80%;
-  transition: 0.5s;
-}
-
 .TOP .top_05{
   position: fixed;
   width: 80px;
   top: 41.08%;
   left: 30px;
   z-index: 30;
-}
-
-.TOP .top_05:hover{
-  opacity: 80%;
-  transition: 0.5s;
 }
 
 .TOP .top_06{
@@ -156,11 +146,6 @@ main{
   z-index: 30;
 }
 
-.TOP .top_06:hover{
-  opacity: 80%;
-  transition: 0.5s;
-}
-
 .TOP .top_07{
   position: fixed;
   width: 90px;
@@ -169,21 +154,12 @@ main{
   z-index: 30;
 }
 
-.TOP .top_07:hover{
-  opacity: 80%;
-  transition: 0.5s;
-}
 
 .TOP .top_08{
   position: fixed;
   width: 100px;
   top: 17%;
   right: 80px;
-}
-
-.TOP .top_08:hover{
-  opacity: 80%;
-  transition: 0.5s;
 }
 
 .TOP .top_09{
@@ -194,21 +170,11 @@ main{
   z-index: 30;
 }
 
-.TOP .top_09:hover{
-  opacity: 80%;
-  transition: 0.5s;
-}
-
 .TOP figure .top_10{
   position: fixed;
   width: 70px;
   top: 17%;
   right: 10px;
-}
-
-.TOP .top_10:hover{
-  opacity: 80%;
-  transition: 0.5s;
 }
 
 .TOP .top_11{
@@ -217,11 +183,6 @@ main{
   bottom: 18%;
   right: -30px;
   z-index: 10;
-}
-
-.TOP .top_11:hover{
-  opacity: 80%;
-  transition: 0.5s;
 }
 
 .TOP .top_17{
@@ -963,20 +924,10 @@ h2{
     left: 10%;
   }
 
-  .TOP .top_12:hover{
-    opacity: 80%;
-    transition: 0.5s;
-  }
-
   .TOP .top_13{
     width: 350px;
     bottom: 15%;
     right: -5%;
-  }
-
-  .TOP .top_13:hover{
-    opacity: 80%;
-    transition: 0.5s;
   }
 
   .TOP .top_14{
@@ -1233,6 +1184,14 @@ h2{
     left: 50%;
     transform: translateX(-50%);
     z-index: 30;
+    transition: 0.3s;
+  }
+
+  .TOP .top_04:hover{
+    top: 38.9%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
   }
 
   .TOP .top_05{
@@ -1241,6 +1200,12 @@ h2{
     left: auto;
     right: 23%;
     z-index: 18;
+    transition: 0.3s;
+  }
+
+  .TOP .top_05:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
   }
 
   .TOP .top_06{
@@ -1249,6 +1214,14 @@ h2{
     left: 50%;
     transform: translateX(-50%);
     z-index: 30;
+    transition: 0.3s;
+  }
+
+  .TOP .top_06:hover{
+    top: 62.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
   }
 
   .TOP .top_07{
@@ -1258,6 +1231,14 @@ h2{
     transform: translateX(-50%);
     margin-left: -200px;
     z-index: 30;
+    transition: 0.3s;
+  }
+
+  .TOP .top_07:hover{
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
   }
 
   .TOP .top_08{
@@ -1265,6 +1246,12 @@ h2{
     top: 13%;
     left: 320px;
     z-index: 20;
+    transition: 0.3s;
+  }
+
+  .TOP .top_08:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
   }
 
   .TOP .top_09{
@@ -1274,6 +1261,14 @@ h2{
     transform: translateX(-50%);
     margin-left: 210px;
     z-index: 30;
+    transition: 0.3s;
+  }
+
+  .TOP .top_09:hover{
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
   }
 
   .TOP figure .top_10{
@@ -1281,12 +1276,24 @@ h2{
     top: 14%;
     left: 455px;
     z-index: 20;
+    transition: 0.3s;
+  }
+
+  .TOP .top_10:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
   }
 
   .TOP .top_12{
     width: 200px;
     top: 10%;
     left: 70px;
+    transition: 0.3s;
+  }
+
+  .TOP .top_12:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
   }
 
   .TOP .top_13{
@@ -1294,6 +1301,12 @@ h2{
     bottom: 15%;
     right: -3%;
     z-index: 19;
+    transition: 0.3s;
+  }
+
+  .TOP .top_13:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
   }
 
   .TOP .top_14{
