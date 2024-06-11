@@ -38,6 +38,10 @@
 	});
 	home03.addEventListener('click', () => {
 		service_01.classList.remove('active');
+		top.classList.remove('active');
+		bg_01.classList.remove('active');
+		bg_02.classList.remove('active');
+		logo.classList.remove('active');
 	});
 
 	// SERVICE_02 デザイン
@@ -50,6 +54,10 @@
 	});
 	home06.addEventListener('click', () => {
 		service_02.classList.remove('active');
+		top.classList.remove('active');
+		bg_01.classList.remove('active');
+		bg_02.classList.remove('active');
+		logo.classList.remove('active');
 	});
 
 	// SERVICE_03 撮影
@@ -66,6 +74,10 @@
 	});
 	home07.addEventListener('click', () => {
 		service_03.classList.remove('active');
+		top.classList.remove('active');
+		bg_01.classList.remove('active');
+		bg_02.classList.remove('active');
+		logo.classList.remove('active');
 	});
 
 	// SERVICE_04 福祉
@@ -78,6 +90,10 @@
 	});
 	home08.addEventListener('click', () => {
 		service_04.classList.remove('active');
+		top.classList.remove('active');
+		bg_01.classList.remove('active');
+		bg_02.classList.remove('active');
+		logo.classList.remove('active');
 	});
 
 	// ABOUT
@@ -115,18 +131,35 @@
 	const ser_02 = document.getElementById('SER_02');
 	const ser_03 = document.getElementById('SER_03');
 	const ser_04 = document.getElementById('SER_04');
+	const top = document.getElementById('TOP');
+	const bg_01 = document.getElementById('BG_01');
+	const bg_02 = document.getElementById('BG_02');
+	const logo = document.getElementById('logo');
 
 	ser_02.addEventListener('click', () => {
 		service_02.classList.add('active');
 		service_01.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
+
 	});
 	ser_03.addEventListener('click', () => {
 		service_03.classList.add('active');
 		service_01.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	ser_04.addEventListener('click', () => {
 		service_04.classList.add('active');
 		service_01.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 
 
@@ -138,14 +171,26 @@
 	de_01.addEventListener('click', () => {
 		service_01.classList.add('active');
 		service_02.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	de_03.addEventListener('click', () => {
 		service_03.classList.add('active');
 		service_02.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	de_04.addEventListener('click', () => {
 		service_04.classList.add('active');
 		service_02.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 
 
@@ -157,14 +202,26 @@
 	mo_01.addEventListener('click', () => {
 		service_01.classList.add('active');
 		service_03.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	mo_02.addEventListener('click', () => {
 		service_02.classList.add('active');
 		service_03.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	mo_04.addEventListener('click', () => {
 		service_04.classList.add('active');
 		service_03.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 
 
@@ -176,14 +233,26 @@
 	wel_01.addEventListener('click', () => {
 		service_01.classList.add('active');
 		service_04.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	wel_02.addEventListener('click', () => {
 		service_02.classList.add('active');
 		service_04.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 	wel_03.addEventListener('click', () => {
 		service_03.classList.add('active');
 		service_04.classList.remove('active');
+		top.classList.add('active');
+		bg_01.classList.add('active');
+		bg_02.classList.add('active');
+		logo.classList.add('active');
 	});
 
 }

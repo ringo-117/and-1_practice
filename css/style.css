@@ -43,6 +43,10 @@ body {
   width: 100px;
 }
 
+.logo.active img{
+  opacity: 0;
+}
+
 main{
   width: 100vw;
   min-height: 650px;
@@ -58,6 +62,10 @@ main{
   width: 100vw;
   height: 30vh;
   background-color: #8d7966;
+}
+
+.bg_01.active,.bg_02.active{
+  opacity: 0;
 }
 
 .con_box{
@@ -79,6 +87,11 @@ main{
 
 .TOP{
   position: relative;
+  opacity: 1;
+}
+
+.TOP.active{
+  opacity: 0;
 }
 
 .TOP .top_item{
